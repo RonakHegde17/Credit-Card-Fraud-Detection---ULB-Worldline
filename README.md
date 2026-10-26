@@ -12,6 +12,7 @@ The dataset is too large for this repo, but can be downloaded
 
 Characteristics-
 - 284,807 European card transactions over two days in September 2013
+- 
 - 492 confirmed frauds (0.173% of total)
-- `Time`, `Amount`, and 28 anonymized PCA components (`V1`-`V28`)
+- `Time`, `Amount`, and 28 anonymized PCA components (`V1`-`V28`). `Class:0` - Legitimate, `Class:1` - Fraud
 - Data has been cleaned
