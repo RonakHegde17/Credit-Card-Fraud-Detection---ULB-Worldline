@@ -8,9 +8,9 @@ In this project, we will train and deploy a model to identify fraudulent credit 
 
 # Dataset
 The dataset is too large for this repo, but can be downloaded
-[here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) 
+[here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-This dataset contains-
+Characteristics-
 - 284,807 European card transactions over two days in September 2013
 - 492 confirmed frauds (0.173% of total)
 - `Time`, `Amount`, and 28 anonymized PCA components (`V1`-`V28`)
