@@ -7,7 +7,7 @@ In this project, we will train and deploy a model to identify fraudulent credit 
 Our process will be the following-
 
 - Load dataset and sanity check (shape, # of values, no null values)
-- Run a Kolmogorov-Smirnov (KS) test to confirm and rank difference in fraud and legitimate distributions across features.
+- Run a Kolmogorov-Smirnov (KS) test on our features to confirm and rank differences in fraud and legitimate distributions.
 - 
 
 
