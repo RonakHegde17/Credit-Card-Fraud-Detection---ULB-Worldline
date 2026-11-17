@@ -8,7 +8,10 @@ Our process will be the following-
 
 - Load dataset and sanity check (shape, # of values, no null values)
 - Run a Kolmogorov-Smirnov (KS) test on our features to confirm and rank differences in fraud and legitimate distributions.
-- 
+- Run a chronological split on the data. The models will be trained on the first 60%, validated on the next 20%, and tested on the last 20%.
+- Use 2 models, Logistic Regression and XGBoost, and compare their performance.
+- Choose the model with the highest prediction capability for testing.
+- Run model over last 20% of the data and interpret results.
 
 
 # Dataset
